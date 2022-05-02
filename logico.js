@@ -60,7 +60,6 @@ var timeInterval = setInterval(function () {
     } else {
         clearInterval(timeInterval)
         gameOver();
-        alert("Termino");
     }
 }, 1000);
 function actualizarTiempo() {
