@@ -72,18 +72,7 @@ function updateScore() {
     var score = parseInt(document.getElementById("score").innerHTML);
     var score = score + 1;
     document.getElementById("score").innerHTML = score;
-    /*
-    if (revisar() == true) {
-        var score = parseInt(document.getElementById("score").innerHTML);
-        console.log(score)
-        score++
-        console.log(score)
-        document.getElementById("score").innerHTML = score;
-    } else {
-    }
-    var score = document.getElementById("score");
-    return score.innerHTML = updateScore
-    */
+
 }
 function gameOver() {
     var hache1 = document.createElement("h1")
@@ -102,13 +91,6 @@ function gameOver() {
     btn1.classList.add("boton");
 
 
-
-    /*Posibilidad #1
-    parrafo1
-    btn1
-    /*Posibilidad #2
-    hache1.classList= ""
-    */
     var gameOver = document.getElementById("end-game-container");
     gameOver.appendChild(hache1)
     gameOver.appendChild( parrafo1)
